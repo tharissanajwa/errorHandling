@@ -33,7 +33,7 @@ public class ErrorHandling {
                 statusValidasi = true;
             } catch (InputMismatchException e) {
                 System.out.println("Input status yang Anda masukkan salah, formatnya harus berupa true bila sudah menikah dan false bila belum menikah. Silahkan coba kembali.");
-                scanner.next(); // Membersihkan buffer input
+                scanner.next();
             }
         }
 
