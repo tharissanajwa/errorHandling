@@ -19,7 +19,7 @@ public class ErrorHandling {
                 age = scanner.nextInt(); // Membaca nilai integer dari input pengguna
                 umurValidasi = true;
             } catch (InputMismatchException e) {
-                System.out.println("Input umur yang Anda masukkan salah, format harus berupa bilangan positif. Silahkan coba kembali.");
+                System.out.println("Input umur yang Anda masukkan salah, format harus berupa angka. Silahkan coba kembali.");
                 scanner.next();
             }
         }
